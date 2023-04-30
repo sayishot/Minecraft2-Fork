@@ -1,5 +1,5 @@
 (async () => {
-  var t,
+    var t,
     d,
     p,
     u,
@@ -39,7 +39,7 @@
         )
       )) < 1682378606896 ||
       confirm(
-        "This cheat is outdated and might be bugged, would you still like to run it? You can find regularly updated cheats here https://github.com/Minesraft2/Blooket-Cheats"
+        "This cheat is outdated and might be bugged, would you still like to run it? You can find regularly updated cheats here https://github.com/Minesraft2/Blooket-Cheats . Remember this is a fork and the get the updates for it go to http://unblocked.rugmovies.ml"
       ))
   ) {
     function f(e, t = {}, ...a) {
@@ -63,7 +63,7 @@
     ),
       console.log("%c\tgui.js", "color: #0bc2cf; font-size: 1rem"),
       console.log(
-        "%c\tStar the github repo!%c  https://github.com/Minesraft2/Blooket-Cheats",
+        "%c\tStar the github repo!%c  https://github.com/sayishot/Minecraft2-Fork/tree/main",
         "color: #ffd000; font-size: 1rem",
         ""
       );
@@ -2759,6 +2759,67 @@
           },
         },
         {
+            name: "Always X1000",
+            description: "Always get 1000X crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function () {
+              this.enabled
+                ? ((this.enabled = !1),
+                  clearInterval(this.data),
+                  (this.data = null))
+                : ((this.enabled = !0),
+                  (this.data = setInterval(
+                    () =>
+                      Object.values(
+                        document.querySelector("#app > div > div")
+                      )[1].children[0]._owner.stateNode.setState({
+                        choices: [
+                          {
+                            type: "mult",
+                            val: 1000,
+                            rate: 0.075,
+                            blook: "Spooky Ghost",
+                            text: "1000X Crypto",
+                          },
+                        ],
+                      }),
+                    50
+                  )));
+            },
+          },
+          {
+            name: "Always HACK",
+            description: "Always get HACK",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function () {
+              this.enabled
+                ? ((this.enabled = !1),
+                  clearInterval(this.data),
+                  (this.data = null))
+                : ((this.enabled = !0),
+                  (this.data = setInterval(
+                    () =>
+                      Object.values(
+                        document.querySelector("#app > div > div")
+                      )[1].children[0]._owner.stateNode.setState({
+                        choices: [
+                          {
+                            type: "hack",
+                            rate: 0.075,
+                            blook: "Spooky Ghost",
+                            text: "HACK",
+                          },
+                        ],
+                      }),
+                    50
+                  )));
+            },
+          },
+          {
           name: "Auto Guess",
           description: "Automatically guess the correct password",
           type: "toggle",
@@ -2805,6 +2866,20 @@
               });
           },
         },
+        {
+            name: "INF Crypto",
+            description: "Gives Infinite Crypto or near atleast",
+            run: function () {
+                var cryptoAmount = 9e305;
+                var t = Object.values(document.querySelector("#app > div > div"))[1]
+                  .children[0]._owner["stateNode"];
+                t.setState({ crypto: cryptoAmount, crypto2: cryptoAmount }),
+                  t.props.liveGameController.setVal({
+                    path: "c/".concat(t.props.client.name),
+                    val: { b: t.props.client.blook, p: t.state.password, cr: cryptoAmount },
+                  });
+              },
+          },
         {
             name: "Copy Lots Of Text For Password",
             description: "Copies 10000 words about an orange",
@@ -3314,6 +3389,25 @@
           },
         },
         {
+            name: "OP Fossils",
+            description: "When evacuating gives OP fossils. If off it resets multiplier to 1 so be careful.",
+            type: "toggle",
+            enabled: false,
+            interval: null,
+            run: function() {
+              if (this.enabled) {
+                clearInterval(this.interval);
+                this.interval = null;
+                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.setState({ "fossilMult":1});
+              } else {
+                this.interval = setInterval(function() {
+                  Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.setState({ "fossilMult":9e9});
+                }, 100);
+              }
+              this.enabled = !this.enabled;
+            }
+          },
+        {
           name: "Stop Cheating",
           description: "Undoes cheating so that you can't be caught",
           run: function () {
@@ -3326,6 +3420,7 @@
               });
           },
         },
+       
       ],
       doom: [
         {
@@ -4301,6 +4396,84 @@
           },
         },
         {
+            name: "Very OP Blooks",
+            description: "Sets all your blooks to the best hacked ones",
+            run: function () {
+                Object.values(
+                  document.querySelector("#app > div > div")
+                )[1].children[0]._owner.stateNode.setState({
+                  blooks: new Array(10).fill({
+                    name: "Spooky Ghost",
+                    color: "#d71f27",
+                    class: "🕶️",
+                    rarity: "Hacker",
+                    cash: [100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000],
+                    time: [0.1, 0.1, 0.1, 0.1, 0.1],
+                    price: [0, 0, 0, 0],
+                    active: !1,
+                    level: 4,
+                    bonus: 5.5,
+                  }),
+                });
+              },
+            },
+        {
+            name: "Always Get MegaBot",
+            description: "Always gives you OP megabot.",
+            type: "toggle",
+            enabled: false,
+            interval: null,
+            run: function() {
+              if (this.enabled) {
+                clearInterval(this.interval);
+                this.interval = null;
+              } else {
+                this.interval = setInterval(function() {
+                    var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.choices[0];
+                    obj.name = "Mega Bot";
+                    obj.time = [
+                      0.1, 0.1 , 0.1 , 0.1 , 0.1];
+                    obj.cash = [1e100, 1e100, 1e100, 1e100, 1e100];
+                    obj.price = [0,0,0,0
+                    ]
+                    obj.class = "🤖";
+                    obj.rarity = "Mystical";
+                    obj.level = 4;
+                    obj.bonus = 1.65
+                  })
+              }
+              this.enabled = !this.enabled;
+            }
+          },
+          {
+            name: "Always Get Spooky Ghost",
+            description: "Always gives you OP Spooky Ghost.",
+            type: "toggle",
+            enabled: false,
+            interval: null,
+            run: function() {
+              if (this.enabled) {
+                clearInterval(this.interval);
+                this.interval = null;
+              } else {
+                this.interval = setInterval(function() {
+                    var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.choices[1];
+                    obj.name = "Spooky Ghost";
+                    obj.time = [
+                      1, 1 , 1 , 1 , 1];
+                    obj.cash = [100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000];
+                    obj.price = [0,0,0,0
+                    ]
+                    obj.class = "👻";
+                    obj.rarity = "Impossible";
+                    obj.level = 4;
+                    obj.bonus = 1.65
+                  })
+              }
+              this.enabled = !this.enabled;
+            }
+          },
+        {
           name: "Set Cash",
           description: "Sets amount of cash you have",
           inputs: [{ name: "Cash", type: "number" }],
@@ -4583,10 +4756,45 @@
           },
         },
         {
-          name: "Reset Players Gold",
-          description: "Sets a player's gold to 0",
-          inputs: [
-            {
+            name: "Op Chests",
+            description: "Gives very good chests always.",
+            type: "toggle",
+            enabled: false,
+            interval: null,
+            run: function() {
+              if (this.enabled) {
+                clearInterval(this.interval);
+                this.interval = null;
+              } else {
+                this.interval = setInterval(function() {
+                  var obj = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state;
+                  obj.choices = [{
+                      "type": "multiply",
+                      "val": 100,
+                      "text": "100X Multiply Gold!",
+                      "blook": "Rainbow Astronaut"
+                    },
+                    {
+                      "type": "swap",
+                      "text": "SWAP!",
+                      "blook": "Spooky Ghost"
+                    },
+                    {
+                      "type": "gold",
+                      "val": 1000000,
+                      "text": "+1M Gold",
+                      "blook": "Tim the Alien"
+                    }
+                  ];
+                });
+              }
+              this.enabled = !this.enabled;
+            }
+          },
+          {
+            name: "Reset Players Gold",
+            description: "Sets a player's gold to 0",
+            inputs: [{
               name: "Player",
               type: "options",
               options: () => {
@@ -4594,26 +4802,30 @@
                   document.querySelector("#app > div > div")
                 )[1].children[0]._owner["stateNode"];
                 return new Promise((t) =>
-                  e.props.liveGameController._liveApp
-                    ? e.props.liveGameController.getDatabaseVal(
-                        "c",
-                        (e) => e && t(Object.keys(e))
-                      )
-                    : t([])
+                  e.props.liveGameController._liveApp ?
+                  e.props.liveGameController.getDatabaseVal(
+                    "c",
+                    (e) => e && t(Object.keys(e))
+                  ) :
+                  t([])
                 );
               },
+            }, ],
+            set: function(e) {
+              var {
+                props: t,
+                state: a
+              } = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner["stateNode"];
+              t.liveGameController.setVal({
+                path: "c/".concat(t.client.name),
+                val: {
+                  b: t.client.blook,
+                  g: 0,
+                  tat: e + ":swap:0"
+                },
+              });
             },
-          ],
-          run: function (e) {
-            var { props: t, state: a } = Object.values(
-              document.querySelector("#app > div > div")
-            )[1].children[0]._owner["stateNode"];
-            t.liveGameController.setVal({
-              path: "c/".concat(t.client.name),
-              val: { b: t.client.blook, g: a.gold, tat: e + ":swap:0" },
-            });
           },
-        },
         {
           name: "Set Gold",
           description: "Sets amount of gold",
