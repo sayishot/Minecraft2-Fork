@@ -4,7 +4,7 @@ This is a Minecraft2 fork just because i want too add new features and have PC g
 http://unblocked.rugmovies.ml/
 
 
-***Added:
+Added:
 
 Crypto:
 Always 1000X Multi
@@ -22,4 +22,4 @@ Always Get MegaBot
 Very OP Blooks
 
 Dino:
-OP Fossils***
+OP Fossils
