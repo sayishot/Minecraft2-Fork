@@ -4,39 +4,42 @@ This is a Minecraft2 fork just because i want too add new features and have PC g
 http://unblocked.rugmovies.ml/
 
 
-Added:
+
+
+**Added:**
+
 
 Crypto:
 
 
-Always 1000X Multi
+***Always 1000X Multi***
 
-Always HACK
+***Always HACK***
 
-Copy Lots Of Text For Password
+***Copy Lots Of Text For Password***
 
-INF Crypto
+***INF Crypto***
 
 
 
 Gold:
 
 
-Op Chests
+***Op Chests***
 
 
 
 Factory:
 
 
-Always Get Spooky Ghost
+***Always Get Spooky Ghost***
 
-Always Get MegaBot
+***Always Get MegaBot***
 
-Very OP Blooks
+***Very OP Blooks***
 
 
 Dino:
 
 
-OP Fossils
+***OP Fossils***
