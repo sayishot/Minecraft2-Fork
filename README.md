@@ -8,6 +8,11 @@ http://unblocked.rugmovies.ml/
 
 **Added:**
 
+Global
+
+***Change E to toggle to V***
+
+
 
 Crypto:
 
@@ -20,6 +25,9 @@ Crypto:
 
 ***INF Crypto***
 
+***Always Nothing***
+
+***+10 MIL crypto always***
 
 
 Gold:
@@ -43,3 +51,7 @@ Dino:
 
 
 ***OP Fossils***
+
+/**Host**\:
+
+***End Game***
