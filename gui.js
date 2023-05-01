@@ -234,7 +234,7 @@
               { ctrl: b, shift: t, alt: d, key: p },
               { ctrl: u, shift: m, alt: h, key: g },
             ] = [
-              j.data.hide || { key: "e" },
+              j.data.hide || { key: "v" },
               j.data.close || { key: "x" },
             ]),
             `${[b && "Ctrl", t && "Shift", d && "Alt", p && p.toUpperCase()]
@@ -248,7 +248,7 @@
               .filter(Boolean)
               .join(" + ")} for quick disable\nClick and drag here`),
           update: (
-            { ctrl: e, shift: t, alt: a, key: o } = {  key: "e" },
+            { ctrl: e, shift: t, alt: a, key: o } = {  key: "v" },
             { ctrl: n, shift: i, alt: r, key: s } = {  key: "x" }
           ) =>
             (l.innerText = `${[
@@ -290,7 +290,7 @@
             fontWeight: "700",
             userSelect: "text",
           },
-          innerHTML: "Created by OneMinesraft2#5394",
+          innerHTML: "Created by OneMinesraft2#5394 and Brogan",
         }),
         (n = f(
           "div",
@@ -2570,6 +2570,17 @@
           },
         },
       ],
+      host: [
+        {
+          name: "End Game",
+          description: "Ends the game",
+          run: function () {
+            if (location.pathname.includes("host/") == true && location.pathname != "host/join") {
+              Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.props.deleteHost();
+            }
+          },
+        }, 
+      ],
       cafe: [
         {
           name: "Max Items",
@@ -2790,6 +2801,67 @@
             },
           },
           {
+            name: "Always 10 MIL Crypto",
+            description: "Always get 10 MIL Crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function () {
+              this.enabled
+                ? ((this.enabled = !1),
+                  clearInterval(this.data),
+                  (this.data = null))
+                : ((this.enabled = !0),
+                  (this.data = setInterval(
+                    () =>
+                      Object.values(
+                        document.querySelector("#app > div > div")
+                      )[1].children[0]._owner.stateNode.setState({
+                        choices: [
+                          {
+                            type: "crypto",
+                            val: 10000000,
+                            rate: 0.075,
+                            blook: "Spooky Ghost",
+                            text: "+ 10M Crypto",
+                          },
+                        ],
+                      }),
+                    50
+                  )));
+            },
+          },
+          {
+            name: "Always Nothing",
+            description: "Always get 0 crypto (for fun)",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function () {
+              this.enabled
+                ? ((this.enabled = !1),
+                  clearInterval(this.data),
+                  (this.data = null))
+                : ((this.enabled = !0),
+                  (this.data = setInterval(
+                    () =>
+                      Object.values(
+                        document.querySelector("#app > div > div")
+                      )[1].children[0]._owner.stateNode.setState({
+                        choices: [
+                          {
+                            type: "nothing",
+                            rate: 0.075,
+                            blook: "Watson",
+                            text: "Nothing!",
+                          },
+                        ],
+                      }),
+                    50
+                  )));
+            },
+          },
+          {
             name: "Always HACK",
             description: "Always get HACK",
             type: "toggle",
@@ -2810,7 +2882,7 @@
                           {
                             type: "hack",
                             rate: 0.075,
-                            blook: "Spooky Ghost",
+                            blook: "Mega Bot",
                             text: "HACK",
                           },
                         ],
@@ -2870,7 +2942,7 @@
             name: "INF Crypto",
             description: "Gives Infinite Crypto or near atleast",
             run: function () {
-                var cryptoAmount = 9e305;
+                var cryptoAmount = 9e307;
                 var t = Object.values(document.querySelector("#app > div > div"))[1]
                   .children[0]._owner["stateNode"];
                 t.setState({ crypto: cryptoAmount, crypto2: cryptoAmount }),
@@ -4407,7 +4479,7 @@
                     color: "#d71f27",
                     class: "🕶️",
                     rarity: "Hacker",
-                    cash: [100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000],
+                    cash: [9e307, 9e307, 9e307, 9e307, 9e307],
                     time: [0.1, 0.1, 0.1, 0.1, 0.1],
                     price: [0, 0, 0, 0],
                     active: !1,
@@ -4460,8 +4532,8 @@
                     var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.choices[1];
                     obj.name = "Spooky Ghost";
                     obj.time = [
-                      1, 1 , 1 , 1 , 1];
-                    obj.cash = [100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000, 100000000000000000e100000000];
+                      0.1, 0.1 , 0.1 , 0.1 , 0.1];
+                    obj.cash = [9e300, 9e300, 9e300, 9e300, 9e300];
                     obj.price = [0,0,0,0
                     ]
                     obj.class = "👻";
@@ -5128,15 +5200,15 @@
               name: "Distraction",
               type: "options",
               options: Object.entries({
-                c: "Oh Canada",
-                b: "Blizzard",
-                f: "Fog Spell",
-                d: "Dark & Dusk",
-                w: "Howling Wind",
-                g: "Gift Time!",
-                t: "TREES",
-                s: "Snow Plow",
-                fr: "Use The Force",
+               c: "Oh Canada",
+               b: "Blizzard",
+               f: "Fog Spell",
+               d: "Dark & Dusk",
+               w: "Howling Wind",
+               g: "Gift Time!",
+               t: "TREES",
+               s: "Snow Plow",
+               fr: "Use The Force",
               }).map(([e, t]) => ({ name: t, value: e })),
             },
           ],
@@ -5522,7 +5594,7 @@
           run: function (e) {
             j.setItem("hide", e),
               l.update(
-                j.data.hide || { key: "e" },
+                j.data.hide || { key: "v" },
                 j.data.close || { key: "x" }
               );
           },
@@ -5554,7 +5626,7 @@
           run: function (e) {
             j.setItem("close", e),
               l.update(
-                j.data.hide || { key: "e" },
+                j.data.hide || { key: "v" },
                 j.data.close || { key: "x" }
               );
           },
@@ -6210,8 +6282,13 @@
       v(
         "Global",
         "https://media.blooket.com/image/upload/v1661496291/Media/uiTest/Games_Played_2.svg",
-        O.global
+        O.global 
       )(),
+      v(
+        "Host",
+        "https://blooket.s3.us-east-2.amazonaws.com/blooks/bonus/mysticals/rainbowAstronaut.svg",
+        O.host
+      ),
       v(
         "Gold Quest",
         "https://media.blooket.com/image/upload/v1661496292/Media/uiTest/Gold.svg",
@@ -6320,7 +6397,7 @@
         window.removeEventListener("keydown", C);
     }
     function C(e) {
-      var t = j.data.hide || { key: "e" },
+      var t = j.data.hide || { key: "v" },
         a = j.data.close || { key: "x" };
       ((t.ctrl && e.ctrlKey) || (!t.ctrl && !e.ctrlKey)) &&
       ((t.shift && e.shiftKey) || (!t.shift && !e.shiftKey)) &&
