@@ -2971,6 +2971,7 @@
                   copyToClipboard('an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious an orange is a fruit that is delicious');
             },
           },
+          
         {
           name: "Set Password",
           description: "Sets hacking password",
@@ -3035,6 +3036,76 @@
             });
           },
         },
+        {
+          name: "Remove All Players' Crypto",
+          description: "Removes however much from the users crypto if they have it. Dont use on botted games or itll take forever. You can do letters to mess with host console",
+          inputs: [{ name: "Amount", type: "input" }],
+          run: function (h) {
+            var e = document.createElement("iframe");
+            document.body.append(e),
+              (window.alert = e.contentWindow.alert.bind(window)),
+              e.remove();
+            let { props: a, state: o } = Object.values(
+                document.querySelector("#app > div > div")
+              )[1].children[0]._owner["stateNode"],
+              n = 0;
+              const localUserName = a.client.name;
+            a.liveGameController.getDatabaseVal("c", async (e) => {
+              if (e)
+                for (const t of Object.keys(e))
+                if (t === localUserName)  {
+                  continue;
+                } else
+                  a.liveGameController.setVal({
+                    path: "c/".concat(a.client.name),
+                    
+                    val: { b: a.client.blook, g: 0, gg: o.crypto2, tat: t + ":" + h + ":1" },
+                                    }),
+                    n++,
+                    
+                    await new Promise((e) => setTimeout(e, 4e3));
+              alert(`Took ${h} from ${n} players' crypto! (if they had enough atleast)`);
+
+            });
+          },
+        },
+        {
+          name: "Reset All Players' Crypto",
+          description: "Reset however much from the users crypto if they have it. Dont use on botted games or itll take forever. This is only 9999999999999999999999999999999 so hackers can bypass but its fine.",
+          run: function () {
+            var e = document.createElement("iframe");
+            document.body.append(e),
+              (window.alert = e.contentWindow.alert.bind(window)),
+              e.remove();
+            let { props: a, state: o } = Object.values(
+                document.querySelector("#app > div > div")
+              )[1].children[0]._owner["stateNode"],
+              n = 0;
+              const localUserName = a.client.name;
+            a.liveGameController.getDatabaseVal("c", async (e) => {
+              if (e)
+                for (const t of Object.keys(e))
+                if (t === localUserName)  {
+                  continue;
+                } else
+                  a.liveGameController.setVal({
+                    path: "c/".concat(a.client.name),
+                    
+                    val: { b: a.client.blook, g: 0, gg: o.crypto2, tat: t + ":9999999999999999999999999999999:1" },
+                                    }),
+                    n++,
+                    
+                    await new Promise((e) => setTimeout(e, 4e3));
+              alert(`Took ${h} from ${n} players' crypto! (if they had enough atleast)`);
+
+            });
+          },
+        },
+
+
+
+
+
       ],
       defense: [
         {
