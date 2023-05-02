@@ -29,6 +29,10 @@ Crypto:
 
 ***+10 MIL crypto always***
 
+***Reset all players crypto***
+
+***Remove crypto from all***
+
 
 Gold:
 
